@@ -15,8 +15,11 @@ After ChatGPT guessed the first word, we would continue by indicating which lett
 
 
 ## Visuals
-1. This is an example of ChatGPT playing the game successfully without cheating. The secret word was HAIRY and it had previously guessed CRANE and RADIO. 
+1. This is an example of ChatGPT playing the game successfully without cheating. The secret word was HAIRY and it had previously guessed CRANE and RADIO. As you can see, it was able to consider BRAID and VIRAL and then rule them out based on the information gained from previous guesses. After this, it guessed FAIRY and then HAIRY and won the game. 
 <img width="948" height="1075" alt="image" src="https://github.com/user-attachments/assets/ccbd3758-8bd9-4ecb-b755-c20ef9d359c2" />
 <img width="765" height="1006" alt="image" src="https://github.com/user-attachments/assets/1c99f0cd-e318-42a9-aa51-6d8a241a7a20" />
-As you can see, it was able to consider BRAID and VIRAL and then rule them out based on the information gained from previous guesses. 
+
+2. In this example, where the secret word was HORSE, ChatGPT did cheat. It guessed the word SPINE after SLATE, violating the yellow letter rule. It claimed it put S in the second spot when it’s obviously still in the first spot. After getting feedback on SPINE, it still didn’t recognize its mistake. Since S was once again yellow, it said that S couldn’t be in spots 1 or 2, even though it never actually tested 2. Eventually it was able to guess the word, but in other cases, this type of hallucination caused much worse results. 
+<img width="832" height="870" alt="image" src="https://github.com/user-attachments/assets/e8967450-3579-4d5f-b31f-9e1b1e8c65c8" />
+<img width="910" height="1057" alt="image" src="https://github.com/user-attachments/assets/eb1872d3-ee59-4004-bda0-718a958d1e28" />
 
