@@ -33,11 +33,16 @@ Through our testing, we identified three primary ways the AI failed to remain a 
 <img width="910" height="1057" alt="image" src="https://github.com/user-attachments/assets/eb1872d3-ee59-4004-bda0-718a958d1e28" />
 <br>
 3. In this example, the word was NIGHT. The AI failed to maintain yellow-letter constraints, after guessing TUNIC and receiving a yellow for the letter T, it proceeded to guess NIMBY, which completely excluded the required letter.
-
+![night](night.png)
+![night](night2.png)
+<br>
 4. In this example, the word was SCROD. The AI had lexical hallucination by guessing SROOD, explicitly acknowledging that it is not a real word, but proceeding with the guess regardless
-   
+![scrod](scrod.png)
+![scrod](scord2.png)
+<br>
 5. In this example, the word was QUOTA. The AI violated hard-mode rules by failing to maintain the position of a green letter, despite identifying O as green in the third position during the guess STOLE, it moved the letter to the second position in its following guess, TOUGH
-
+![quota](quota.png)
+![quota](quota2.png)
    
 ## Conclusion
 The results highlight a significant trust gap in the LLM's ability to follow complex, multi-step logical constraints. While the AI is excellent at "sounding" like a Wordle player, explaining its reasoning with confidence, its actual output often contradicts its own stated logic. This suggests that for tasks requiring strict adherence to rules, the AI’s tendency toward hallucination and "instruction drift" makes it unreliable.
