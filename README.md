@@ -1,4 +1,5 @@
 # Trustworthy AI Project 2 - Playing Against the LLM
+Sameen Ahmad and Laura Anker
 
 ## The Game (Wordle)
 
