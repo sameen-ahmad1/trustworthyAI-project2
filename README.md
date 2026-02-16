@@ -37,16 +37,14 @@ Through our testing, we identified three primary ways the AI failed to remain a 
    
 ![night](night.png)
 ![night2](night2.png)
-
-
 <br>
+
 - In this example, the word was SCROD. The AI had lexical hallucination by guessing SROOD, explicitly acknowledging that it is not a real word, but proceeding with the guess regardless.
 
 ![scrod](scrod.png)
 ![scrod2](scrod2.png)
-
-
 <br>
+
 - In this example, the word was QUOTA. The AI violated hard-mode rules by failing to maintain the position of a green letter, despite identifying O as green in the third position during the guess STOLE, it moved the letter to the second position in its following guess, TOUGH.
 
 ![quota](quota.png)
