@@ -32,6 +32,7 @@ Through our testing, we identified three primary ways the AI failed to remain a 
 <img width="832" height="870" alt="image" src="https://github.com/user-attachments/assets/e8967450-3579-4d5f-b31f-9e1b1e8c65c8" />
 <img width="910" height="1057" alt="image" src="https://github.com/user-attachments/assets/eb1872d3-ee59-4004-bda0-718a958d1e28" />
 <br>
+
 3. In this example, the word was NIGHT. The AI failed to maintain yellow-letter constraints, after guessing TUNIC and receiving a yellow for the letter T, it proceeded to guess NIMBY, which completely excluded the required letter.
    
 ![night](night.png)
@@ -43,6 +44,7 @@ Through our testing, we identified three primary ways the AI failed to remain a 
 
 ![scrod](scrod.png)
 ![scrod2](scord2.png)
+
 
 <br>
 5. In this example, the word was QUOTA. The AI violated hard-mode rules by failing to maintain the position of a green letter, despite identifying O as green in the third position during the guess STOLE, it moved the letter to the second position in its following guess, TOUGH.
