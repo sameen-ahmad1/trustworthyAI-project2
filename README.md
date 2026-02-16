@@ -34,4 +34,4 @@ Through our testing, we identified three primary ways the AI failed to remain a 
 
 
 ## Conclusion
-The results highlight a significant trust gap in the LLM's ability to follow complex, multi-step logical constraints. While the AI is excellent at "sounding" like a Wordle player—explaining its reasoning with confidence, its actual output often contradicts its own stated logic. This suggests that for tasks requiring strict adherence to rules, the AI’s tendency toward hallucination and "instruction drift" makes it unreliable.
+The results highlight a significant trust gap in the LLM's ability to follow complex, multi-step logical constraints. While the AI is excellent at "sounding" like a Wordle player, explaining its reasoning with confidence, its actual output often contradicts its own stated logic. This suggests that for tasks requiring strict adherence to rules, the AI’s tendency toward hallucination and "instruction drift" makes it unreliable.
